@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: linear-gradient(to right, #77A1D3,#79CBCA);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    max-width: 90vw;
+    margin: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+main {
+    margin-top: 30px;
+    text-align: center;
+}
+
+main p {
+    margin: 15px 30px;
+}
